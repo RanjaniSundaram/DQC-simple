@@ -1,1 +1,22 @@
+Packages needed to run the program can be found in packages.txt
+
+Inputs: 
+  -A folder containing input circuits. 
+  -An example circuit is provided.
+  
+Format of input files:
+
+  Line 1 is of the form:
+
+    Inputs: 0:Qbit, 1:Qbit, 2:Qbit, 3:Qbit, ... , n:Qbit
+
+  Every subsequent line is either a Hadamard gate on some qubit q:
+
+    QGate["H"](q)
+
+  Or a CZ gate on some qubits q1 and q2:
+
+    QGate["CZ"](q1) with controls=[+q2]
+
+Running the code:
 
