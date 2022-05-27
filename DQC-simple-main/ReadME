@@ -1,3 +1,6 @@
+
+
+
 Packages needed to run the program can be found in packages.txt
 
 Inputs: 
@@ -20,4 +23,40 @@ Format of input files:
 
 Running the code:
 
-Place 
+  Place the input circuit file in the Inputs folder. Then, run the code as follows:
+
+    python3 MainFile.py
+    
+      Function input options:
+
+      1. OM
+
+
+      2. G star simple
+
+
+      3. G star LP
+
+
+      Enter Option:  1 or 2 or 3
+      
+      Enter Input Filename: example.txt
+      
+      Enter number of partitions: some k in {1...n}
+
+  The result will be stored in 'Results' under the same file name. The result file corresponding to running OM algorithm on example.txt with 5 partitions is as follows:
+
+    Original Circuit: 
+    qubits: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    gates: 1000
+    num of CZ: 500
+    partitions: [[2, 7, 8, 18], [6, 12, 14, 19], [0, 11, 13, 16], [1, 10, 15, 17], [3, 4, 5, 9]]
+    number of partitions: 5
+    size: 5
+    cost: 218
+    maximum number of ebits in partition: 7
+    time: 0.0 minutes 6.793231248855591 seconds
+    
+   
+  
+    
