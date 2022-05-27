@@ -1,0 +1,10 @@
+Original Circuit: 
+qubits: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+gates: 1000
+num of CZ: 500
+partitions: [[6, 12, 14, 19], [2, 7, 8, 18], [0, 11, 13, 16], [3, 4, 5, 9], [1, 10, 15, 17]]
+number of partitions: 5
+size: 5
+cost: 200
+maximum number of ebits in partition: 7
+time: 0.0 minutes 15.353903532028198 seconds
